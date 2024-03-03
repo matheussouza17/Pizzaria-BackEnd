@@ -1,0 +1,18 @@
+--instalar TypeScript
+yarn add typescript -D  
+yarn add express
+yarn @types/express -D --para sugerir com o cmd+space
+npm install --save-dev @types/node
+npm install --save-dev @types/express
+
+
+--inicializar o TypeScript no pjt
+yarn tsc --init
+
+--para poder iniciar o prjeto com typescript
+yarn add ts-node-dev -D
+
+--após, criar scrpt no package.json
+"scripts":{
+     "dev": "ts-node-dev src/server.ts"
+},
